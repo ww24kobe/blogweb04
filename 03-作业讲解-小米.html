@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://at.alicdn.com/t/c/font_4264137_r8f7gg4myxa.css"
+    />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei,
+          Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      /* 定义版心公共类 */
+      .page {
+        width: 1226px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .header {
+        background-color: #333333;
+      }
+
+      .header .menu {
+        height: 40px;
+        line-height: 40px;
+        /* background-color: red; */
+        color: #b0b0b0;
+        font-size: 12px;
+      }
+
+      .header .menu .left-area {
+        float: left;
+        /* background-color: pink; */
+      }
+
+      .header .menu .left-area ul li {
+        float: left;
+      }
+
+      .header .menu .left-area ul li a {
+        cursor: pointer;
+        border-right: 1px solid #424242;
+        text-decoration: none;
+        padding: 0 8px;
+        color: #b0b0b0;
+      }
+
+      .header .menu .left-area ul li:last-child a {
+        /* transparent透明色 */
+        /* border-right: 1px solid transparent; */
+        border-width: 0;
+      }
+      .header .menu .right-area {
+        float: right;
+        /* background-color: #ccc; */
+      }
+
+      .header .menu .right-area ul li {
+        height: 40px;
+        float: left;
+      }
+
+      .header .menu .right-area ul li a {
+        color: #b0b0b0;
+        text-decoration: none;
+        padding: 0 6px;
+        cursor: pointer;
+      }
+
+      .header .menu .right-area ul li .login,
+      .header .menu .right-area ul li .registry {
+        border-right: 1px solid #424242;
+      }
+      .header .menu .right-area ul li:last-child {
+        text-align: center;
+        width: 120px;
+        margin-left: 15px;
+        background-color: #424242;
+      }
+
+      .header .menu .left-area ul li a:hover,
+      .header .menu .right-area ul li a:hover {
+        color: #fff;
+      }
+
+      .header .menu .right-area ul li:last-child:hover {
+        background-color: #fff;
+      }
+
+      .header .menu .right-area ul li:last-child:hover a {
+        color: #ff6700;
+      }
+
+      .header .menu .right-area ul li .shopcar {
+        margin-right: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="page menu">
+        <div class="left-area">
+          <ul>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href="">小米官网</a>
+            </li>
+            <li>
+              <a href=""> Select Location</a>
+            </li>
+          </ul>
+        </div>
+        <div class="right-area">
+          <ul>
+            <li>
+              <a class="login" href="">登录</a>
+            </li>
+            <li>
+              <a class="registry" href="">注册</a>
+            </li>
+            <li>
+              <a href="">消息通知</a>
+            </li>
+            <li>
+              <a href=""
+                ><span class="iconfont icon-gouwuche1 shopcar"></span>购物车
+                (0)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
